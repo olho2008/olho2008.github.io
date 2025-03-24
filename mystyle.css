@@ -12,6 +12,7 @@ h2.ppp {
 }
 
 h1 {
+    border: 5px solid black;
     text-decoration-line: underline;
     text-decoration-color: red;
     text-decoration-style: solid;
@@ -21,7 +22,7 @@ h1 {
 h2 {
     text-decoration-line: underline;
     text-decoration-color: rgb(0, 17, 128);
-    text-decoration-style: dotted;
+    text-decoration-style: double;
     text-decoration-thickness: 1px;
 }
 
@@ -30,4 +31,12 @@ p {
     text-decoration-color: rgb(0, 247, 255);
     text-decoration-style: wavy;
     text-decoration-thickness: 10px;
+}
+
+.johan {
+   background-color: rgb(255, 100, 250);
+    
+}
+.hamar {
+    color: rgb(255, 0, 0);
 }
