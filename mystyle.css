@@ -40,3 +40,24 @@ p {
 .hamar {
     color: rgb(255, 0, 0);
 }
+
+body {
+    background-image: url(drottning.webp);
+    background-size: 10%;
+    background-repeat: repeat;
+
+}
+div {
+    height: 100px;
+    background-color: powderblue;
+    margin: 10px;
+}
+
+div.withmaxwidth{ border-style: dotted;
+    border-width: 5px; border-color: red;
+    max-width: 100000px;
+}
+
+div.withjustwidth {
+    width: 300px;
+}
