@@ -61,3 +61,13 @@ div.withmaxwidth{ border-style: dotted;
 div.withjustwidth {
     width: 300px;
 }
+
+
+
+
+div.padding {
+    padding: 20px;
+    background-color: lightblue;
+    border: 0caption;
+    border-radius: 10px;
+}
