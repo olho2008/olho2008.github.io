@@ -63,11 +63,13 @@ div.withjustwidth {
 }
 
 
-
+li {
+    display: inline;
+  }
 
 div.padding {
     padding: 20px;
-    background-color: lightblue;
+    background-color: rgb(0, 255, 64);
     border: 0caption;
     border-radius: 10px;
 }
