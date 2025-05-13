@@ -1,0 +1,134 @@
+body {
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "bar header sok"
+        "ppp ppp ppp"
+        "film film film";
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50px 20px 450px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid black;
+
+;
+}
+.header {
+    grid-area: header;
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7), 
+      4px 4px 0px rgba(0, 0, 0, 0.5), 
+      6px 6px 0px rgba(0, 0, 0, 0.3), 
+     8px 8px 0px rgba(0, 0, 0, 0.2), 
+      10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.ppp {
+    grid-area: ppp;
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7), 
+     4px 4px 0px rgba(0, 0, 0, 0.5), 
+      6px 6px 0px rgba(0, 0, 0, 0.3), 
+              
+}
+.bar {
+    grid-area: bar;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sok {
+    grid-area: sok;
+    padding: 20px;
+    float: right;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+ left: 1050px;
+}
+
+.container2 {
+    display: grid;
+    grid-template-areas:
+            "huvud huvud "
+            "bild1 bild2"
+            "spacer spacer"
+            "bild3 bild4";
+
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 
+        50px 
+        400px 
+        50px
+        400px;
+        ;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.huvud {
+    grid-area: huvud;
+    background-color: black;
+
+}
+.bild1 {
+    grid-area: bild1;
+    position: relative; ;
+    font-size: 30px ;
+}
+.bild2 {
+    grid-area: bild2;
+    position: relative; ;
+    font-size: 30px ;
+}
+img {
+    grid-area: bild1;
+    position: relative;
+    left: 100px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.product-card {
+ 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px #CCC;
+    padding: 200px;
+    width:  100px;
+    
+  }
+  
+  .product-image {
+    width: 100%;
+  }
+  
+  .product-price {
+    margin-right: 20px;
+  }
+  
+  .buy-button {
+    background-color: forestgreen;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+              
+}
+  

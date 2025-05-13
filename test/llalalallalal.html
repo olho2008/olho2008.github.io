@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 100px 100px 100px;
+            grid-template-areas: 
+                "header header header header"
+                "sidebar content content content"
+                "main pa la ta"
+                "footer footer footer footer";
+        }
+
+        @media (max-width: 800px) {
+            .container {
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 100px 100px 100px 100px;
+                grid-template-areas: 
+                "header content content"
+                "sidebar content content"
+                "main la ta"
+                "footer footer footer";
+            }
+            
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                grid-template-columns: 1fr;
+                grid-template-rows: 100px 100px 100px 100px 100px 100px 100px;
+                grid-template-areas: 
+                "main"
+                "header"
+                "sidebar"
+                "pa"
+                "la"
+                "ta"
+                "content"
+                "footer";
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div style="grid-area: header; background-color: lightblue;">Header</div>
+        <div style="grid-area: sidebar; background-color: lightgreen;">Sidebar</div>
+        <div style="grid-area: content; background-color: lightcoral;">Content</div>
+        <div style="grid-area: footer; background-color: lightgray;">Footer</div>
+        <div style="grid-area: main; background-color: lightyellow;">Main</div>
+        <div style="grid-area: pa; background-color: lightpink;">Pa</div>
+        <div style="grid-area: la; background-color: lightcyan;">La</div>
+        <div style="grid-area: ta; background-color: lightgoldenrodyellow;">Ta</div>
+    </div>
+</body>
+</html>
