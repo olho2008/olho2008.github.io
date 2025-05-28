@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+    grid-template-areas:
+        "header"
+        "bil"
+        "info"
+        "footer";
+  grid-template-columns: 100%;
+    grid-template-rows: 150px 300px 300px 300px;
+}
+
+.header {
+  grid-area: header;
+  font-size: 100px;
+  text-align: center;
+}
+
+.many {
+  grid-area: header;
+  text-align: center;
+}
+
+.bild {
+  grid-area: bil;
+  width: 100%;
+  height: 100%;
+}

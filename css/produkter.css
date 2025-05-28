@@ -1,0 +1,32 @@
+.container {
+    display: grid;
+    grid-template-areas:
+        "header"
+        "porche"
+        ;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 100px;
+    width: 100%;
+   
+}
+
+.header {
+    grid-area: header;
+    width: 100px;
+    height: 520px;
+    font-size: 100px;
+    text-align: center;
+}
+.sok {
+    grid-area: header;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right:30px ;
+    top: 10px;
+}
+.porche {
+    grid-area: porche;
+    width: 100px;
+    height: 100px;
+}
