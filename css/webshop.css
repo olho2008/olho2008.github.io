@@ -52,16 +52,14 @@ body {
 
 .ppp {
     position: relative;
-    right: 520px;
+    right: 29%;
     grid-area: ppp;
     padding: 40px;
     text-align: center;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7),
-        4px 4px 0px rgba(0, 0, 0, 0.5),
-        6px 6px 0px rgba(0, 0, 0, 0.3),
+   
 
 }
 
@@ -77,12 +75,12 @@ body {
 .sok {
     
     grid-area: sok;
-    padding: 20px;
+    padding: 10px;
     float: right;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: 80px;
+    left: 50px;
 }
 
 .container2 {
@@ -139,3 +137,65 @@ img {
 
 }
 
+@media (max-width: 1568px) {
+    .ppp {
+        
+        margin: 10px;
+        text-align: center;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        
+    }
+    .header {
+        position: relative;
+        right: 90%;
+        padding: 20px;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7),
+            4px 4px 0px rgba(0, 0, 0, 0.5),
+            6px 6px 0px rgba(0, 0, 0, 0.3),
+            8px 8px 0px rgba(0, 0, 0, 0.2),
+            10px 10px 0px rgba(0, 0, 0, 0.1);
+    }
+    .sok {
+        position: relative;
+        left: 20px;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+@media (max-width: 1145px) {
+    .ppp {
+        position: relative;
+        right: 10%;
+        bottom: 90px;
+        padding: 40px;
+        text-align: center;
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: black;
+        
+    }
+    .header {
+        position: relative;
+        right: 80%;
+        padding: 20px;
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.7),
+            4px 4px 0px rgba(0, 0, 0, 0.5),
+            6px 6px 0px rgba(0, 0, 0, 0.3),
+            8px 8px 0px rgba(0, 0, 0, 0.2),
+            10px 10px 0px rgba(0, 0, 0, 0.1);
+    }
+    .sok {
+        position: relative;
+        top: 10px;
+        left: 0px;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}

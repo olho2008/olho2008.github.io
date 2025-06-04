@@ -5,20 +5,73 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/sida.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+<script src="/js/myScript.js"></script>
 </head>
 <body>
     <div class="container">
-        <div class="header">Produkt 1</div>
+        <div class="header">Johans bilar</div>
         <nav class="many">
             <a href="index.html" style="color: rgb(0, 0, 0);">Hem</a> |
             <a href="#" style="color: rgb(0, 0, 0);">Produkter</a> |
             <a href="error.html" style="color: rgb(0, 0, 0);">om oss</a> |
             <a href="#" style="color: rgb(0, 0, 0);">kontakta oss</a>
         </nav>
-        <img src="bilder/carrera gts.avif" alt="Bild 1" class="bild">
-        <p>Detta är en beskrivning av produkt 1. Den är mycket användbar och populär.</p>
-        <div class="pris">Pris: 100 kr</div>
-        <button class="knapp">Köp nu</button>
+        <img id="myImage" src="bilder/carrera gts.avif"  class="bild">
+
+        <div class="bild">
+         <button type="button" onclick="setPic('bilder/carrera gts.avif')">
+           grå
+          </button>
+         <button type="button" onclick="setPic('bilder/röd.avif')">
+            Röd
+        
+         </button>
+         <button type="button" onclick="setPic('bilder/vit.avif')">
+            vit
+             </button>
+         </div>
+
+
+        
+     <div class="info"> 
+       <ul class="info">
+        <div class="info">911 Carrera GTS</div>
+            <li>3,0s Acceleration från 0 - 100 km/h med Sport Chrono-paket
+            </li>
+            <li>398
+                kW
+                /
+                541
+                HK
+                Systemeffekt komb. (kW)/Systemeffekt komb. (HK)</li>
+            <li>312
+                km/h
+                Maxhastighet</li>
+           
+        </ul>
+        <button type="button" style="width: 100px;"
+        onclick="document.getElementById('demo').innerHTML = 'slutsåld';">
+        Köp</button>
+
+        <p id="demo"></p>
+     </div>
+
+<div class="footer">
+     <div>kontakta oss </div>
+     <div>adress: Storgatan 1, 123 45 Stockholm</div>
+    <div>telefon: 070-1234567 </div>
+       <div>email: johanbilar@gmail.com </div>
+       <div>personal: Johan Svensson</div>
+     
+</div>
+
+
+
+
+
     </div>
 </body>
 </html>
