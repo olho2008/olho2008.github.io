@@ -14,7 +14,7 @@
   font-size: 100px;
   text-align: center;
   border: 1px solid black;
-  font-family: ;
+  font-family:Orbitron , sans-serif;
 
 }
 
@@ -23,6 +23,8 @@
   text-align: center;
   position: relative;
     top: 100px;
+    margin: 10px;
+    font-family: orbitron, sans-serif;
 }
 
 .bild {
@@ -59,6 +61,8 @@ div.bild {
     position: relative;
     right: 35px;
     top: 510px;
+    font-family: orbitron, sans-serif;
+    
 }
 
   
@@ -95,3 +99,90 @@ div.footer {
     
    
 }
+
+@media screen and (max-width: 800px) {
+  .header {
+    font-size: 50px;
+  }
+  
+  .info {
+    font-size: 15px;
+  }
+  .many {
+    font-size: 20px;
+    position: relative;
+    top: 50px;
+  }
+  
+  .footer {
+    font-size: 15px;
+  }
+  
+  div.bild {
+    font-size: 20px;
+    position: relative;
+    right: 20px;
+    top: 300px;
+  }
+  
+  div.info {
+    font-size: 50px;
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+  }
+  .container {
+    display: grid;
+      grid-template-areas:
+          "header"
+          "bil"
+          "info"
+          "footer";
+    grid-template-columns: 100%;
+      grid-template-rows: 100px 300px 350px 300px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .header {
+      font-size: 30px;
+    }
+    .many {
+      font-size: 15px;
+      position: relative;
+      top: 20px;
+    }
+    
+    .info {
+      font-size: 10px;
+    }
+    
+    .footer {
+      font-size: 10px;
+    }
+    
+    div.bild {
+      font-size: 15px;
+      position: relative;
+      right: 10px;
+      top: 200px;
+    }
+    
+    div.info {
+      font-size: 30px;
+      position: relative;
+      right: 10px;
+      bottom: 10px;
+    }
+    
+    .container {
+      display: grid;
+        grid-template-areas:
+            "header"
+            "bil"
+            "info"
+            "footer";
+      grid-template-columns: 100%;
+        grid-template-rows: 80px 200px 250px 200px;
+    }
+    
+  }

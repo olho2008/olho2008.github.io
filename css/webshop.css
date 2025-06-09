@@ -109,6 +109,10 @@ body {
 img {
     position: relative;
     border-radius: 12px;
+    width: 100%;
+    height: 350px;
+
+
     /* right: 150px; */
 }
 
