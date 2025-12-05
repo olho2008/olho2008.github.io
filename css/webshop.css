@@ -15,7 +15,6 @@ body {
         "film film film";
     grid-template-columns: 32% 32% 32%;
     grid-template-rows: 50px 20px 450px;
-    /* width: 100vw; */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -101,7 +100,6 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* gap: 100px; */
     grid-area: content;
     
 }
