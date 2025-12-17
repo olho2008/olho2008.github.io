@@ -1,0 +1,119 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Body */
+  body {
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  /* Hero section */
+  .hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://via.placeholder.com/1200x600') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+  }
+  
+  .hero .btn {
+    background: #4CAF50;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .hero .btn:hover {
+    background: #45a049;
+  }
+  
+  /* Services section */
+  .services-section {
+    padding: 50px 20px;
+    background: #f9f9f9;
+  }
+  
+  .services-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.2rem;
+    color: #333;
+  }
+  
+  /* Services container (flex column on desktop, stack on mobile) */
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Service card */
+  .service-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .service-card h3 {
+    margin: 15px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .service-card p {
+    margin: 0 15px 15px 15px;
+    flex-grow: 1;
+  }
+  
+  .service-card .btn {
+    margin: 0 15px 15px 15px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero h1 {
+      font-size: 2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  }
+  
